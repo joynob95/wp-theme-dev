@@ -15,11 +15,11 @@
               <nav class="nav-list">
 
                <?php 
- //                   wp_nav_menu(array(
-  //                    "theme_location" => "footerMenuLocation1"
+                  //  wp_nav_menu(array(
+                  //    "theme_location" => "footerMenuLocation1"
               
- //                   ) );
- //               ?>
+                  //  ) );
+             ?>
 
                 <ul>
                   
@@ -36,10 +36,10 @@
               <nav class="nav-list">
 
               <?php 
-  //                  wp_nav_menu(array(
-  //                    "theme_location" => "footerMenuLocation2"
+                  //  wp_nav_menu(array(
+                  //    "theme_location" => "footerMenuLocation2"
               
-   //                 ) );
+                  //  ) );
             ?>
 
                 <ul>

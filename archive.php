@@ -13,7 +13,7 @@
           <p><?php the_archive_description();?></p>
         </div>
       </div>
-    </div>
+</div>
 
     <div class="container container--narrow page-section"> 
 
@@ -35,10 +35,7 @@
         <p><a class="btn btn--blue"href="<?php the_permalink();?>">  continue reading &raquo;</a></p>
         
       </div>
-
-
       </div>
-
     <?php }
     
       echo paginate_links();

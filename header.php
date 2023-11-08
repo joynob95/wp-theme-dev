@@ -17,10 +17,10 @@
           <nav class="main-navigation">
 
          <?php 
-       //   wp_nav_menu(array(
+        //  wp_nav_menu(array(
         //      "theme_location" => "headerMenuLocation"
 
-       //   ) );
+        //  ) );
           ?> 
 
             <ul>
@@ -29,7 +29,7 @@
                                 <!-- 0 means current page SAME as get_the_ID(); -->
               <li><a href="#">Events</a></li>
               <li><a href="#">Campuses</a></li>
-              <li><a href="<?php echo site_url('/blog');?>">Blog</a></li>
+              <li <?php if(get_post_type() = "post") echo "class= 'current-menu-item'"?>><a href="<?php echo site_url('/blog');?>">Blog</a></li>
             </ul>
           </nav>
           <div class="site-header__util">

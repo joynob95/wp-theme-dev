@@ -11,8 +11,8 @@ function university_files(){
 add_action("wp_enqueue_scripts", "university_files");
 
 function university_features(){
- //   register_nav_menu("headerMenuLocation", "header menu location");
- //   register_nav_menu("footerMenuLocation1", "footer menu location one");
+//    register_nav_menu("headerMenuLocation", "header menu location");
+//    register_nav_menu("footerMenuLocation1", "footer menu location one");
 //  register_nav_menu("footerMenuLocation2", "footer menu location two");
     add_theme_support("title-tag");  //to show the title on the page in the url
 }

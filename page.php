@@ -1,10 +1,8 @@
 <?php get_header(); ?>
 <?php 
 
-
 while(have_posts()){
     the_post(); ?>
-
 
 <div class="page-banner">
       <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/images/ocean.jpg')?>)"></div>
@@ -28,10 +26,7 @@ while(have_posts()){
           </p>
         </div>
 
-        <?php   }
-        
-        ?>
-
+        <?php   }  ?>
 
           <?php 
           
@@ -59,24 +54,17 @@ while(have_posts()){
               "sort_column" => "menu_order"
 
            ));
-          
-          
-          
           ?>
         </ul>
       </div> 
      
-           <?php }?>
+      <?php }?>
 
 
       <div class="generic-content">
       <?php the_content();?>
         </div>
     </div>
-
-
-
-
 
 <?php } ?>
 <?php get_footer(); ?>
